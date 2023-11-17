@@ -1,0 +1,597 @@
+#center{ 
+
+    background-image: url(../assets/img/f.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+   .center_main{ 
+    padding-top:250px;
+    padding-bottom:250px;
+    background-color: #00000051;
+    }
+   .well_1{ 
+    color: #d4c768;
+    }
+   .center_2{ 
+    background: rgba(107, 105, 87, 0);
+    border-color: rgba(71, 77, 75, 0);
+    box-shadow: 0 0px 0px 13px rgba(37, 37, 37, 0);
+    padding: 25px 20px 33px 20px;
+    margin-top: 30px;
+    }
+   .center_1 h2, h3{ 
+    color:#fff;
+    text-align:center;
+    /* padding-bottom: 10px; */
+    font-size: 35px;
+    font-weight: bold;
+    }
+   #center select{
+    font-size: 22px;
+    width:100%;
+    padding:10px;
+    background: #211101;
+    color: #b0a377;
+    border: 2px solid #2d1702;
+   }
+   .hotels_tab_inner_1 h4{ 
+    color:#fff;
+    font-size:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+   .center_4 p{ 
+    padding-top:60px;
+    }
+   .center_4 p a{ 
+    background-color: #000;
+    color: #b0a377;
+    padding: 15px 75px 15px 75px;
+    }
+   .center_4 p a:hover{ 
+    background-color:#b0a377;
+    color: #fff;
+    }
+    #trip{ 
+        overflow:hidden;
+        background: #25252500;
+        }
+        #trip span{
+         align-items: center;
+        }
+       /* carousel */
+       #trip .media-carousel 
+       {
+         margin-bottom: 0;
+         padding: 0 40px 0px 40px;
+         margin-top: 21px;
+       }
+       /* Previous button  */
+       #trip .media-carousel .carousel-control.left 
+       {
+         background-image: none;
+         background: none repeat scroll 0 0 #c56709;
+         border: 4px solid #FFFFFF;
+         border-radius: 23px 23px 23px 23px;
+         height: 30px;
+         width: 30px;
+         margin-top: 110px;
+         margin-left: 3px;
+         line-height: 20px;
+       }
+       /* Next button  */
+       #trip .media-carousel .carousel-control.right 
+       {
+         background-image: none;
+         background: none repeat scroll 0 0 #c56709;
+         border: 4px solid #FFFFFF;
+         border-radius: 23px 23px 23px 23px;
+         height: 30px;
+         width: 30px;
+         margin-top:110px;
+         margin-right: 3px;
+         line-height: 20px;
+       }
+       /* Changes the position of the indicators */
+       #trip .media-carousel .carousel-indicators 
+       {
+         right: 50%;
+         top: auto;
+         bottom: 0px;
+         margin-right: -19px;
+       }
+       /* Changes the colour of the indicators */
+       #trip .media-carousel .carousel-indicators li 
+       {
+         background: #c0c0c0;
+       }
+       #trip .media-carousel .carousel-indicators .active 
+       {
+         background: #333333;
+       }
+       #trip .media-carousel img
+       {
+        width: 100%;
+        height: 100%;
+       }
+       /* End carousel */
+       #trip .col-sm-3 {
+        padding-left:5px;
+        padding-right:5px;
+       }
+       #trip .thumbnail {
+        display: block;
+        margin-bottom: 20px;
+        background:none;
+        border: none;
+       }
+       #trip .slidess img {
+         width: 100%;
+         height: 100%;
+         transition: transform 0.3s ease;
+       }
+       
+       #trip .slidess:hover img {
+         transform: scale(0.9); /* Adjust the scale factor for zoom level */
+       }
+/* living start */
+.living_main1 {
+  text-align: center; /* Center-align the text */
+}
+
+.living_main1 h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+.living_main1 .well_12 {
+  color: #b0a377; /* Adjust the color as needed */
+}
+
+.living_main1 p {
+  font-size: 16px; /* Adjust the font size as needed */
+}
+/* living end */
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive grid with minimum width of 220px */
+  gap: 2px; /* Adjust the gap between images as needed */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.images div {
+  width: 100%; /* Set width to 100% for responsiveness */
+  margin-bottom: 20px; /* Add margin at the bottom of each image container */
+}
+
+.images img {
+  width: 100%; /* Make images take up 100% of the container width */
+  height: 100%; /* Make images take up 100% of the container height */
+  object-fit: cover;
+}
+
+.images * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Optionally, set the height for vertical centering */
+}
+
+.property_1 {
+  text-align: center;
+  padding: 20px; /* Add padding to the property_1 container */
+}
+
+      
+      /* Footer starts*/
+      
+      /* Footer.css */
+
+/* Footer.css */
+
+/* Footer.css */
+
+.footer-container {
+  background: linear-gradient(to right, rgb(96, 131, 131), transparent), linear-gradient(to bottom, rgb(0, 128, 255), transparent);
+  background-color: rgb(144, 232, 232);
+  color: #f7f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-nav {
+  margin-bottom: 20px;
+}
+.footer-nav a:hover {
+  text-decoration: none;
+  background: linear-gradient(to bottom, #00BFFF, #00CED1);
+  padding: 10px;
+}
+
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  display: inline;
+  margin: 0 20px;
+}
+.footer-logo img {
+  width: 80px; /* Adjust the width for your logo */
+  height: auto;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color:#000;
+  font-size: 1rem;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Style the navigation menu */
+/* Apply styles to the whole about-page */
+.about-page {
+  display: flex;
+  flex-direction: column; /* Change to column layout for small screens */
+  align-items: center;
+  padding: 20px;
+}
+
+/* Style for the left section */
+.left-section,
+.right-section {
+  width: 100%; /* Occupy full width on small screens */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the total width */
+}
+
+/* Add styles for h1, h3, p, and img as needed */
+.left-section h1,
+.right-section h1 {
+  font-size: 24px;
+  color: #b0a377;
+}
+
+.left-section h3 {
+  font-size: 18px;
+  color: #666;
+}
+
+.left-section p,
+.right-section p {
+  font-size: 16px;
+  color: #888;
+}
+
+/* Define styles for the image */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.headings12 {
+  color: cadetblue;
+  text-align: center;
+}
+
+.pen-icon {
+  margin-left: 5px;
+  font-size: 1em;
+  color: #b0a377;
+}
+
+.img2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Occupy full width on small screens */
+  margin-left: 0; /* Remove negative margin */
+  align-items: center;
+}
+
+.img2 img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  margin-left: 0; /* Remove margin-left */
+}
+
+/* Add the following styles if you want to center the text horizontally within the container */
+.aj,
+.bj {
+  text-align: center;
+}
+
+.aj {
+  margin-left: 0; /* Remove margin-left */
+  color: #b0a377;
+}
+
+.bj {
+  margin-left: 0; /* Remove margin-left */
+  color: cadetblue;
+}
+
+/* Add a media query for smaller screens (adjust max-width as needed) */
+@media (max-width: 768px) {
+  .img2 {
+    align-items: center;
+    margin-left: 0;
+  }
+}
+
+
+.contact-section{
+ text-align: center;
+}   
+
+.address{
+  text-align: center;
+}
+
+/* Gallery.css */
+
+/* Gallery.css */
+/* Gallery container styles for mobile view */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Gallery item styles for mobile view */
+.gallery-item {
+  flex: 0 0 calc(100% - 20px); /* Full width on smaller screens */
+  max-width: calc(100% - 20px); /* Full width on smaller screens */
+  text-align: center;
+}
+
+/* Styles for videos and images on mobile view */
+video,
+img {
+  max-width: 100%;
+}
+
+/* Caption styles for mobile view */
+.caption {
+  margin-top: 10px;
+  color: #b0a377;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Heading styles for mobile view */
+.abcd {
+  text-align: center;
+  color: cadetblue;
+}
+
+/* Media query for screens with a maximum width of 768px (adjust as needed) */
+@media (max-width: 768px) {
+  .gallery-item {
+    flex: 0 0 calc(50% - 20px); /* Two items per row on smaller screens */
+    max-width: calc(50% - 20px); /* Two items per row on smaller screens */
+  }
+}
+ /* DTourpackges.css */
+
+.tour-package {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+ 
+}
+
+.tour-item {
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 40px;
+  border: 20px solid #ddd; /* You can adjust the border color and thickness */
+  padding: 40px; /* Optional: Add some padding to the tour item container */
+  margin-bottom: 20px; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tour-date {
+  font-size: 14px;
+  color: #555;
+}
+
+.tour-name {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.tour-duration,
+.tour-locations {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Add this to your existing CSS */
+/* Custom styles for slick carousel arrows */
+.slick-arrow {
+  font-size: 24px;
+  color: #555;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  background-color: #fff; /* Customize the background color */
+  border: 1px solid #ddd; /* Customize the border color */
+  border-radius: 50%; /* Make it a circle */
+  padding: 10px; /* Adjust the padding as needed */
+  visibility: visible !important; /* Ensure arrows are visible */
+  opacity: 1 !important; /* Ensure arrows are fully opaque */
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-arrow:hover {
+  color: #333;
+  background-color: #ddd; /* Customize the hover background color */
+}
+
+.view-package-btn {
+  background-color: #b0a377; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 15px; /* Padding for the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  cursor: pointer; /* Add cursor on hover */
+  margin-top: 10px; /* Optional: Add margin between button and other elements */
+}
+
+/* Address.css */
+.address-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 75%; /* 4:3 aspect ratio */
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.detail_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.contant {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%; /* Set a maximum width for better readability */
+  max-height: 80%; /* Set a maximum height for better readability */
+  overflow: auto; /* Add scroll to the entire box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Show the detail container when the 'detail' state is not empty */
+.detail_container.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Close button style */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.detail_info {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  width: 100%; /* Take full width */
+  max-width: 100%; /* Cover the entire screen */
+}
+
+.img-box {
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img-box img {
+  max-width: 10%; /* Make the image take full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+}
+
+.product_detail {
+  padding: 20px;
+  flex: 1; /* Take remaining vertical space */
+}
+
+/* Style for the tour packages */
+.tour-package {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.tour-item {
+  width: 100%; /* Take the full width */
+  max-width: 300px; /* Set a maximum width for better readability */
+  margin: 15px;
+  text-align: center;
+}
