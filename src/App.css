@@ -1,38 +1,217 @@
-.App {
+/* Header.css */
+
+/* Common styles for larger screens */
+.navbar {
+  background-color: whitesmoke;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(rgba(33, 33, 33, 0.522), rgba(33, 33, 33, 0.522)), url('./assets/img/f.jpeg');
+  background-size: cover;
+  height: 50vh;
+  background-position: center, center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar .right {
+  margin-left: auto;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(217, 214, 214);
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  background: linear-gradient(to bottom, #00BFFF, #00CED1);
+  padding: 10px;
+}
+
+.navbar .left img {
+  width: 100px;
+  height: auto;
+}
+
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.top-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top-right ul li {
+  margin-bottom: 10px;
+}
+
+.top-right a {
+  text-decoration: none;
+  color: #f0ecec;
+}
+
+.top-right a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+/* Styles for the menu icon */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  order: 2;
+  margin-left: auto;
+}
+
+.menu-icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.menu-icon.open span:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open span:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: none;
+  z-index: 1000; /* Make sure it's above other elements */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar ul.open {
+    display: flex;
+    flex-direction: column;
+  }
+  .overlay {
+    display: none; /* Hide the overlay by default */
+  }
+  
+  .navbar ul.open + .overlay {
+    display: block; /* Display the overlay when the menu is open */
+  }
+}
+
+/* Styles for the 'home' section */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homeText {
+  max-width: 600px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: #b0a377;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Styles for the search section */
+.search-container {
+  text-align: center;
+}
+
+.search-container p {
+  margin-bottom: 10px;
+}
+
+.search {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 200%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.search button {
+  padding: 5px 20px;
+  background-color: whitesmoke;
+  color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search button:hover {
+  background-color: whitesmoke;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .homeText {
+    max-width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .title {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 }
